@@ -1,0 +1,48 @@
+/* General Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #333;
+  background-color: #f4f4f9;
+  text-align: center;
+}
+
+/* Container */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header */
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+
+/* Main Section */
+main {
+  margin: 20px 0;
+}
+
+.profile-photo {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 5px solid #3498db;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+}
+
+main p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+/* Footer */
+footer {
+  margin-top: 30px;
+  font-size: 0.9rem;
+  color: #555;
+}
