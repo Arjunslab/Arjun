@@ -126,7 +126,7 @@
         }
 
         /* Button Styling */
-        .yt-button {
+        .yt-button, .email-button {
             display: inline-block;
             background-color: #FF6F61; /* Neon Pink */
             color: white;
@@ -140,12 +140,12 @@
             transition: background-color 0.3s, transform 0.3s ease;
         }
 
-        .yt-button:hover {
+        .yt-button:hover, .email-button:hover {
             background-color: #FF2E00; /* Darker Neon Pink */
             transform: scale(1.1);
         }
 
-        .yt-button:active {
+        .yt-button:active, .email-button:active {
             transform: scale(0.95);
         }
 
@@ -173,7 +173,7 @@
                 margin: 20px 0;
             }
 
-            .yt-button {
+            .yt-button, .email-button {
                 font-size: 1.2em;
                 padding: 12px 24px;
             }
@@ -228,6 +228,8 @@
         <p>Email: arjunb5454@gmail.com</p>
         <p>Follow me on my YouTube channel:</p>
         <a href="https://youtube.com/@arjunslab" target="_blank" class="yt-button">Visit My Channel</a>
+        <br><br>
+        <a href="mailto:arjunb5454@gmail.com?subject=Hello%20Arjun" class="email-button">Email Me</a>
     </div>
 
     <div class="footer">
