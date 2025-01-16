@@ -128,7 +128,6 @@
         /* Button Styling */
         .yt-button, .email-button {
             display: inline-block;
-            background-color: #FF6F61; /* Neon Pink */
             color: white;
             padding: 15px 30px;
             font-size: 1.3em;
@@ -140,12 +139,31 @@
             transition: background-color 0.3s, transform 0.3s ease;
         }
 
-        .yt-button:hover, .email-button:hover {
+        .yt-button {
+            background-color: #FF6F61; /* Neon Pink */
+        }
+
+        .yt-button:hover {
             background-color: #FF2E00; /* Darker Neon Pink */
             transform: scale(1.1);
         }
 
-        .yt-button:active, .email-button:active {
+        .yt-button:active {
+            transform: scale(0.95);
+        }
+
+        /* New Email Button */
+        .email-button {
+            background-color: #00BFFF; /* Neon Blue */
+            margin-top: 20px;
+        }
+
+        .email-button:hover {
+            background-color: #008CBA; /* Darker Neon Blue */
+            transform: scale(1.1);
+        }
+
+        .email-button:active {
             transform: scale(0.95);
         }
 
